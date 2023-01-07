@@ -1,4 +1,4 @@
-# Holberton School Higher-Level Programming
+# Alx-Higher_Level Programming
 
 ## Overview
 This repository contains assignments for the higher level programming portion of Holberton School curriculum. Most of the programs and scripts found here will be written in python, C, and bash. The Object Oriented Programming aspect of Higher-Level Programming will also be explored in these assignments. Additionally, relational databases using MySQL are explored as well as Python Object Relational Mappers (ORMs) for MySQL. There are also projects on HTTP requests in the terminal using cURL and HTTP requests in Python using the urllib and requests modules.
