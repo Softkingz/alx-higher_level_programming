@@ -1,37 +1,15 @@
-# 0x09. Python - Everything is object
+# Holberton School Higher-Level Programming
 
 ## Overview
-This project focused on the object oriented programming paradigm in that everything in Python was an object. We learned about how all variable references are actually instances of a data type class. Additionally, we learned the difference between immutable and mutable objects and aliasing as well as how Python passes variables to functions.
+This repository contains assignments for the higher level programming portion of Holberton School curriculum. Most of the programs and scripts found here will be written in python, C, and bash. The Object Oriented Programming aspect of Higher-Level Programming will also be explored in these assignments. Additionally, relational databases using MySQL are explored as well as Python Object Relational Mappers (ORMs) for MySQL. There are also projects on HTTP requests in the terminal using cURL and HTTP requests in Python using the urllib and requests modules.
 
-## Requirements
-### Python Scripts
-* Allowed editors: `vi`, `vim`, `emacs`
-* All your files will be interpreted/compiled on Ubuntu 14.04 LTS using `python3` (version 3.4.3)
-* All your files should end with a new line
-* The first line of all your files should be exactly `#!/usr/bin/python3`
-* A `README.md` file, at the root of the folder of the project, is mandatory
-* Your code should use the PEP 8 style (version 1.7.*)
-* All your files must be executable
-* The length of your files will be tested using `wc`
+## Software
+* Ubuntu 14.04.5 LTS (trusty)
+* Vagrant 2.0.1 (Virtualbox)
+* Python 3.4.3
+* GCC 5.4.1 20160904
+* PEP8 1.7.*
 
-### Text Files
-* Only one line
-* No shebang
-* All files should end with new line
-
-## Tasks
-### Mandatory
-
-The only script is as follows:
-**[19-copy_list.py](19-copy_list.py)** - Returns a copy of a list
-* Input list contains any type of objects
-* Maximum of three lines
-* no imported module
-```
-vagrant:0x09-python-everything_is_object$ ./19-main.py
-[1, 2, 3]
-[1, 2, 3]
-[1, 2, 3]
-True
-False
-```
+## Repositories
+0. **[0x00-python-hello_world]()**
+1. **[0x01-python-if_else_loops_functions]()**
