@@ -13,3 +13,7 @@ This repository contains assignments for the higher level programming portion of
 ## Repositories
 0. **[0x00-python-hello_world]()**
 1. **[0x01-python-if_else_loops_functions]()**
+2. 0x02-python-import_module
+3. 0x03-python-data_structure
+4. 0x04-python-more_data_structure
+
