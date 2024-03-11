@@ -7,24 +7,37 @@
  * Return: 0 if there is no cycle,
  * 1 if there is a cycle
  */
-int check_cycle(listint_t *list) {
-    listint_t *slow_ptr = list;
-    listint_t *fast_ptr = list;
+int check_cycle(listint_t *list)
+{
+	listint_t *p2;
+	listint_t *prev;
 
-    while (slow_ptr && fast_ptr && fast_ptr->next) {
-        slow_ptr = slow_ptr->next;
-        fast_ptr = fast_ptr->next->next;
+	p2 = list;
+	prev = list;
+	while (list && p2 && p2->next)
+	{
+		list = list->next;
+		p2 = p2->next->next;
 
-        if (slow_ptr == fast_ptr) {
-            slow_ptr = list;
-            while (slow_ptr != fast_ptr) {
-                slow_ptr = slow_ptr->next;
-                fast_ptr = fast_ptr->next;
-            }
-            return (1);  // Cycle detected
-        }
-    }
+		if (list == p2)
+		{
+			list = prev;
+			prev =  p2;
+			while (1)
+			{
+				p2 = prev;
+				while (p2->next != list && p2->next != prev)
+				{
+					p2 = p2->next;
+				}
+				if (p2->next == list)
+					break;
 
-    return (0);  // No cycle found
+				list = list->next;
+			}
+			return (1);
+		}
+	}
+
+	return (0);
 }
-
