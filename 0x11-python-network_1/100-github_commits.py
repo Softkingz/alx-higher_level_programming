@@ -1,7 +1,8 @@
 #!/usr/bin/python3
-"""Write a Python script that takes 2 arguments in order to solve this challenge.
-"""
+"""Lists the 10 most recent commits on a given GitHub repository.
 
+Usage: ./100-github_commits.py <repository name> <repository owner>
+"""
 import sys
 import requests
 
